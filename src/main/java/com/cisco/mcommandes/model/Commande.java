@@ -1,4 +1,4 @@
-package com.mcommandes.model;
+package com.cisco.mcommandes.model;
 
 
 import javax.persistence.Entity;

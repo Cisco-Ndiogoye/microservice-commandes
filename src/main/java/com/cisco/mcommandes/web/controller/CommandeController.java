@@ -1,10 +1,10 @@
-package com.mcommandes.web.controller;
+package com.cisco.mcommandes.web.controller;
 
 
-import com.mcommandes.dao.CommandesDao;
-import com.mcommandes.model.Commande;
-import com.mcommandes.web.exceptions.CommandeNotFoundException;
-import com.mcommandes.web.exceptions.ImpossibleAjouterCommandeException;
+import com.cisco.mcommandes.dao.CommandesDao;
+import com.cisco.mcommandes.model.Commande;
+import com.cisco.mcommandes.web.exceptions.CommandeNotFoundException;
+import com.cisco.mcommandes.web.exceptions.ImpossibleAjouterCommandeException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
